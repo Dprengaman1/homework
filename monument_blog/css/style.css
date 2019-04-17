@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+header {
+  background-image: url('../images/blog_header_bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  text-align: center;
+}
+
+body {
+  font-family: "RALEWAY";
+  color: #44545E;
+  font-weight: 600;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Fix for responsive images added to make your life better 🏄🏻‍ */
+img {
+  max-width: 100%;
+}
+
+p {
+  font-family: "LATO";
+}
+
+nav a {
+  font-size: 16px;
+  color: #7B98AA;
+}
+
+h1 a {
+  font-size: 37px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFAFA;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 23px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 20px;
+}
+
+a {
+  text-decoration: none;
+}
