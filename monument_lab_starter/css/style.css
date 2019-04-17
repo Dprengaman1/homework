@@ -1,0 +1,149 @@
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+/* Note: Makes sure that padding and the border are included in the width for each element. */
+/* Don't add anything else under the * selector! */
+* {
+  box-sizing: border-box;
+}
+
+/*Note: fix so that images will scale with their containers. We'll chat about this more when we cover responsive design*/
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: "Raleway";
+  font-weight: 600;
+  color: #44545E;
+  text-align: center;
+}
+
+h1 {
+  font-size: 37px;
+  letter-spacing: 15px;
+}
+
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+header {
+  background-image: url('../images/home_header_bg.jpg');
+  padding-top: 300px;
+  padding-bottom: 300px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h3 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #7B98AA;
+  font-family: "Raleway";
+  font-size: 16px;
+}
+
+p {
+  font-family: "Lato";
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+
+article img {
+  margin: auto;
+}
+
+article a {
+  font-size: 13px;
+  color: #44545E;
+  border: 1px solid black;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 40px;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  margin: 100px;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+.about {
+  background-color: #CDF3F6;
+  padding: 140px 20px 140px 20px;
+}
+
+.about p {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.article-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+footer {
+  font-family: "Lato";
+  font-size: 15px;
+  background-color: #CDF3F6;
+  padding: 30px 1px 50px 1px;
+}
+
+footer i {
+  margin: 15px;
+}
+
+footer h3 {
+  margin-top: 70px;
+}
+
+input {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+/* ----------------------------------------
+Header
+------------------------------------------- */
+/* ----------------------------------------
+Articles
+------------------------------------------- */
+/* ----------------------------------------
+About
+------------------------------------------- */
+/* ----------------------------------------
+Gallery
+------------------------------------------- */
+/* ----------------------------------------
+Footer
+------------------------------------------- */
